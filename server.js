@@ -5,7 +5,7 @@ const path =  require('path');
 const url =  require("url");
 
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 const env = process.env.ENVIRONMENT || 'local';
 
 
